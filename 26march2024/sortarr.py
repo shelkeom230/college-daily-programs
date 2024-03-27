@@ -3,15 +3,14 @@ def sortArr(arr):
     n=len(arr)
     first=[]
     second=[]
-    start=0
-    end=n 
 
-    mid=len(arr)//2
+    mid=n//2
+
     for i in range(mid):
         first.append(arr[i])
     
-    for i in range(mid,n):
-        second.append(arr[i])
+    for j in range(mid,n):
+        second.append(arr[j])
     
     first.sort()
     second.sort(reverse=True)

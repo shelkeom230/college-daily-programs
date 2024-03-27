@@ -3,8 +3,9 @@ def checkPalindrome(n):
     print('yes' if str(n)==str(n)[::-1] else 'no')
 
 def checkPal(n):
-    revnum=str(n)[::-1]
-    if str(n)==revnum:
+    rev_num=str(n)[::-1]
+
+    if rev_num==str(n):
         print('yes')
     else:
         print('no')   
