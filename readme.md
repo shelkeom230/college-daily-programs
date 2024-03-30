@@ -31,6 +31,8 @@ linkedin - [linkedin](https://www.linkedin.com/in/omkar-shelke-2b1976247/)
 ```
 # 30 march 
 ```
-
+12. Program to rotate array elements left by 1 position
+13. Program to rotate array elements by Kth position
+14. Program to remove duplicate elements from the array
 ```
 
