@@ -1,12 +1,9 @@
-def countEvenOrOdd(arr):
-    even=0
-    odd=0
+from collections import deque
+def rotateArr(arr,k):
+    if len(arr)<=1:
+        return arr 
+    else:
+        k=k%len(arr)
+        return arr[-k:]+arr[:-k]
 
-    for ele in arr:
-        if ele%2==0:
-            even+=1
-        else:
-            odd+=1
-    print(even,odd)
-
-countEvenOrOdd([1,1,2,3,4,4,5])
+print(rotateArr([1,2,3,4,5],3))
