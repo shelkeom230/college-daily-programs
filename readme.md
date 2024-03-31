@@ -35,4 +35,10 @@ linkedin - [linkedin](https://www.linkedin.com/in/omkar-shelke-2b1976247/)
 13. Program to rotate array elements by Kth position
 14. Program to remove duplicate elements from the array
 ```
+# 31 march
+```
+15. Program to find string is anagram or not.
+16. Program to check string is pangram or not
+17. Program to check number Armstrong or not
+```
 
