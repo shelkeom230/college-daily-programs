@@ -41,4 +41,9 @@ linkedin - [linkedin](https://www.linkedin.com/in/omkar-shelke-2b1976247/)
 16. Program to check string is pangram or not
 17. Program to check number Armstrong or not
 ```
-
+# 1 march 
+```
+18. How to calculate the number of vowels and consonants in a string?
+19. Find the index of two array elements whose sum is equal to the given value
+20. Write a program to find a word in a given string that has the highest number of repeated letters. If not found, return -1.
+```
