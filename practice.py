@@ -1,9 +1,29 @@
-from collections import deque
-def rotateArr(arr,k):
-    if len(arr)<=1:
-        return arr 
-    else:
-        k=k%len(arr)
-        return arr[-k:]+arr[:-k]
+def find(string):
+    words=string.split(' ')
 
-print(rotateArr([1,2,3,4,5],3))
+    max_repeated_count=0
+    word_with_max_repeated=None 
+
+    for word in words:
+        count_chars={}
+        for char in word:
+            if char in count_chars:
+                count_chars[char]+=1
+            else:
+                count_chars[char]=1
+    
+    # find max count of repeted letters 
+        max_count=max(count_chars.values(),default=0)
+
+        if max_count>max_repeated_count:
+            max_repeated_count=max_count
+            word_with_max_repeated=word 
+
+    if word_with_max_repeated:
+        return word_with_max_repeated
+    else:
+        return -1 
+    
+string='omkar  google '
+result=find(string)
+print(result)
