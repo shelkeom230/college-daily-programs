@@ -12,6 +12,6 @@ def appendZeros2(arr):
     arr.extend([0]*arr_count)
     return arr 
 
-arr=[1,2,3,4,0,5,6,7,8,0,1,2]
+arr=[1,2,3,4,0,0,2,3,0]
 result=appendzeros(arr)
 print(result)
